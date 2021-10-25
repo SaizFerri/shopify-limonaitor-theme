@@ -36,25 +36,17 @@
       "previous": "Предыдущая страница"
     },
     "search": {
-      "search": "Поиск",
-      "reset": "Удалить поисковый запрос"
+      "search": "Поиск"
     },
     "cart": {
       "view": "Просмотреть корзину ({{ count }})",
-      "item_added": "Товар добавлен в корзину.",
-      "view_empty_cart": "Просмотреть корзину"
+      "item_added": "Товар добавлен в корзину."
     },
     "share": {
       "copy_to_clipboard": "Копировать ссылку",
       "share_url": "Ссылка",
       "success_message": "Ссылка скопирована в буфер обмена.",
       "close": "Свернуть функцию \"Поделиться\""
-    },
-    "slider": {
-      "of": "из",
-      "next_slide": "Листать вперед",
-      "previous_slide": "Листать назад",
-      "name": "Ползунок"
     }
   },
   "newsletter": {
@@ -69,16 +61,17 @@
     "vendor": "Продавец:",
     "error": "Ошибка",
     "refresh_page": "Выбор выделенного элемента приводит к полному обновлению страницы.",
+    "next_slide": "Листать вперед",
+    "previous_slide": "Листать назад",
     "loading": "Загрузка…",
     "link_messages": {
       "new_window": "Открывается в новом окне.",
       "external": "Открывает внешний сайт."
     },
+    "of": "из",
     "skip_to_product_info": "Перейти к информации о продукте",
     "total_reviews": "всего отзывов",
-    "star_reviews_info": "{{ rating_value }} из {{ rating_max }} звезд",
-    "collapsible_content_title": "Контент, который можно свернуть",
-    "complementary_products": "Дополнительные товары"
+    "star_reviews_info": "{{ rating_value }} из {{ rating_max }} звезд"
   },
   "blogs": {
     "article": {
@@ -123,11 +116,7 @@
         "label": "Количество",
         "input_label": "Количество: {{ product }}",
         "increase": "Увеличить количество {{ product }}",
-        "decrease": "Уменьшить количество {{ product }}",
-        "minimum_of": "Минимум {{ quantity }}",
-        "maximum_of": "Максимум {{ quantity }}",
-        "multiples_of": "Прирост: {{ quantity }}",
-        "in_cart_html": "В корзине: <span class=\"quantity-cart\">{{ quantity }}</span>"
+        "decrease": "Уменьшить количество {{ product }}"
       },
       "price": {
         "from_price_html": "От {{ price }}",
@@ -145,29 +134,14 @@
         "refresh": "Обновить"
       },
       "media": {
-        "open_media": "Открыть медиа-файлы {{ index }} в модальном окне",
+        "open_featured_media": "Открыть рекомендуемые медиа-файлы в режиме галереи",
+        "open_media": "Открыть медиа-файлы {{ index }} в режиме галереи",
         "play_model": "Открыть объемную модель",
-        "play_video": "Воспроизвести видео",
-        "gallery_viewer": "Средство просмотра галереи",
-        "load_image": "Загрузить изображение {{ index }} в средство просмотра галереи",
-        "load_model": "Загрузить трехмерную модель {{ index }} в средство просмотра галереи",
-        "load_video": "Загрузить видео {{ index }} в средство просмотра галереи",
-        "image_available": "Изображение {{ index }} доступно в средстве просмотра галереи"
+        "play_video": "Воспроизвести видео"
       },
       "view_full_details": "Просмотреть всю информацию",
       "include_taxes": "Сумма налога включена.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Стоимость доставки</a> рассчитывается при оформлении заказа.",
-      "choose_options": "Выберите варианты",
-      "choose_product_options": "Выберите варианты для {{ product_name }}",
-      "value_unavailable": "{{ option_value }} — Недоступно",
-      "variant_sold_out_or_unavailable": "Вариант распродан или недоступен",
-      "inventory_in_stock": "В наличии",
-      "inventory_in_stock_show_count": "В наличии: {{ quantity }}",
-      "inventory_low_stock": "Заканчивается",
-      "inventory_low_stock_show_count": "Заканчивается. Осталось: {{ quantity }}",
-      "inventory_out_of_stock": "Нет в наличии",
-      "inventory_out_of_stock_continue_selling": "В наличии",
-      "sku": "Артикул"
+      "shipping_policy_html": "<a href=\"{{ link }}\">Стоимость доставки</a> рассчитывается при оформлении заказа."
     },
     "modal": {
       "label": "Галерея мультимедиа"
@@ -203,10 +177,7 @@
         "few": "Продуктов: {{ count }}",
         "many": "Продуктов: {{ count }}"
       },
-      "clear_filter": "Снять фильтр",
-      "filter_selected_accessibility": "{{ type }} (установлены фильтры: {{ count }})",
-      "show_more": "Показать больше",
-      "show_less": "Показать меньше"
+      "clear_filter": "Удалить фильтр"
     }
   },
   "templates": {
@@ -227,27 +198,7 @@
         "other": "{{ count }} рез. по запросу «{{ terms }}»",
         "few": "{{ count }} рез. по запросу «{{ terms }}»",
         "many": "{{ count }} рез. по запросу «{{ terms }}»"
-      },
-      "results_pages_with_count": {
-        "one": "Количество страниц: {{ count }}",
-        "other": "Количество страниц: {{ count }}",
-        "few": "Количество страниц: {{ count }}",
-        "many": "Количество страниц: {{ count }}"
-      },
-      "results_suggestions_with_count": {
-        "one": "Рекомендации: {{ count }}",
-        "other": "Рекомендации: {{ count }}",
-        "few": "Рекомендации: {{ count }}",
-        "many": "Рекомендации: {{ count }}"
-      },
-      "results_products_with_count": {
-        "one": "Продукты: {{ count }}",
-        "other": "Продукты: {{ count }}",
-        "few": "Продукты: {{ count }}",
-        "many": "Продукты: {{ count }}"
-      },
-      "suggestions": "Рекомендации",
-      "pages": "Страницы"
+      }
     },
     "cart": {
       "cart": "Корзина"
@@ -260,8 +211,7 @@
         "comment": "Комментарий",
         "send": "Отправить",
         "post_success": "Спасибо за обращение. Мы свяжемся с вами как можно скорее.",
-        "error_heading": "Измените следующие элементы:",
-        "title": "Форма для связи"
+        "error_heading": "Измените следующие элементы:"
       }
     },
     "404": {
@@ -300,8 +250,7 @@
         "product": "Товар",
         "price": "Цена",
         "total": "Всего",
-        "quantity": "Количество",
-        "image": "Изображение продукта"
+        "quantity": "Количество"
       },
       "login": {
         "title": "Уже есть учетная запись?",
@@ -326,22 +275,10 @@
     "collection_template": {
       "title": "Коллекция",
       "empty": "Продукты не найдены",
-      "use_fewer_filters_html": "Используйте меньше фильтров или <a class=\"{{ class }}\" href=\"{{ link }}\">удалите все</a>"
+      "use_fewer_filters_html": "Используйте меньше фильтров или <a class=\"{{ class }}\" href=\"{{ link }}\">удалите фильтры</a>"
     },
     "video": {
       "load_video": "Загрузить видео: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Загрузить слайд",
-      "previous_slideshow": "Предыдущий слайд",
-      "next_slideshow": "Следующий слайд",
-      "pause_slideshow": "Приостановить показ слайд-шоу",
-      "play_slideshow": "Воспроизвести слайд-шоу",
-      "carousel": "Карусель",
-      "slide": "Слайд"
-    },
-    "page": {
-      "title": "Название страницы"
     }
   },
   "localization": {
@@ -428,7 +365,7 @@
     },
     "reset_password": {
       "title": "Сбросьте пароль учетной записи",
-      "subtext": "Введите новый пароль",
+      "subtext": "Введите новый пароль для {{ email }}",
       "password": "Пароль",
       "password_confirm": "Подтвердить пароль",
       "submit": "Сбросить пароль"
@@ -455,8 +392,7 @@
       "tracking_url": "Ссылка для отслеживания",
       "tracking_company": "Перевозчик",
       "tracking_number": "Номер для отслеживания",
-      "subtotal": "Промежуточный итог",
-      "total_duties": "Пошлины"
+      "subtotal": "Промежуточный итог"
     }
   },
   "gift_cards": {

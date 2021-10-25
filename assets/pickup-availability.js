@@ -11,11 +11,7 @@ if (!customElements.get('pickup-availability')) {
     }
 
     fetchAvailability(variantId) {
-      let rootUrl = this.dataset.rootUrl;
-      if (!rootUrl.endsWith("/")) {
-        rootUrl = rootUrl + "/";
-      }
-      const variantSectionUrl = `${rootUrl}variants/${variantId}/?section_id=pickup-availability`;
+      const variantSectionUrl = `${this.dataset.baseUrl}variants/${variantId}/?section_id=pickup-availability`;
 
       fetch(variantSectionUrl)
         .then(response => response.text())
@@ -57,8 +53,7 @@ if (!customElements.get('pickup-availability')) {
 
       document.body.appendChild(sectionInnerHTML.querySelector('pickup-availability-drawer'));
 
-      const button = this.querySelector('button');
-      if (button) button.addEventListener('click', (evt) => {
+      this.querySelector('button').addEventListener('click', (evt) => {
         document.querySelector('pickup-availability-drawer').show(evt.target);
       });
     }
@@ -76,7 +71,7 @@ if (!customElements.get('pickup-availability-drawer')) {
         this.hide();
       });
 
-      this.addEventListener('keyup', (event) => {
+      this.addEventListener('keyup', () => {
         if(event.code.toUpperCase() === 'ESCAPE') this.hide();
       });
     }

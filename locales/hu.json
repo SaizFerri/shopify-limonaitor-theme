@@ -36,25 +36,17 @@
       "previous": "Előző oldal"
     },
     "search": {
-      "search": "Keresés",
-      "reset": "Keresőszó törlése"
+      "search": "Keresés"
     },
     "cart": {
       "view": "Kosár megtekintése ({{ count }})",
-      "item_added": "Betettük a terméket a kosárba",
-      "view_empty_cart": "Kosár megtekintése"
+      "item_added": "Betettük a terméket a kosárba"
     },
     "share": {
       "copy_to_clipboard": "Hivatkozás másolása",
       "share_url": "Hivatkozás",
       "success_message": "A vágólapra másoltuk a hivatkozást.",
       "close": "Megosztás befejezése"
-    },
-    "slider": {
-      "of": "/",
-      "next_slide": "Következő dia",
-      "previous_slide": "Előző dia",
-      "name": "Csúszka"
     }
   },
   "newsletter": {
@@ -73,12 +65,13 @@
       "new_window": "Tartalom megnyitása új ablakban.",
       "external": "Külső webhelyet nyit meg."
     },
+    "next_slide": "Következő dia",
+    "previous_slide": "Előző dia",
     "loading": "Betöltés folyamatban…",
+    "of": "/",
     "skip_to_product_info": "Kihagyás, és ugrás a termékadatokra",
     "total_reviews": "összes értékelés",
-    "star_reviews_info": "{{ rating_max }}/{{ rating_value }} csillag",
-    "collapsible_content_title": "Összecsukható tartalom",
-    "complementary_products": "Kiegészítő termékek"
+    "star_reviews_info": "{{ rating_max }}/{{ rating_value }} csillag"
   },
   "blogs": {
     "article": {
@@ -114,11 +107,7 @@
         "label": "Mennyiség",
         "input_label": "{{ product }} mennyisége",
         "increase": "{{ product }} mennyiségének növelése",
-        "decrease": "{{ product }} mennyiségének csökkentése",
-        "minimum_of": "Minimum: {{ quantity }}",
-        "maximum_of": "Maximum: {{ quantity }}",
-        "multiples_of": "Növekvés: {{ quantity }}",
-        "in_cart_html": "Kosárban lévő mennyiség: <span class=\"quantity-cart\">{{ quantity }}</span>"
+        "decrease": "{{ product }} mennyiségének csökkentése"
       },
       "price": {
         "from_price_html": "Legalacsonyabb ár: {{ price }}",
@@ -143,29 +132,14 @@
         "refresh": "Frissítés"
       },
       "media": {
-        "open_media": "{{ index }}. médiafájl megnyitása a modális párbeszédpanelen",
+        "open_featured_media": "Kiemelt médiafájl megnyitása galérianézetben",
+        "open_media": "{{ index }}. médiafájl megnyitása galérianézetben",
         "play_model": "Lejátszás a 3D-megjelenítőben",
-        "play_video": "Videó lejátszása",
-        "gallery_viewer": "Galériamegjelenítő",
-        "load_image": "{{ index }}. kép betöltése galérianézetben",
-        "load_model": "{{ index }}. térhatású modell betöltése galérianézetben",
-        "load_video": "{{ index }}. videó lejátszása galérianézetben",
-        "image_available": "{{ index }}. kép betöltve galérianézetben"
+        "play_video": "Videó lejátszása"
       },
       "view_full_details": "Minden részlet megtekintése",
       "include_taxes": "Tartalmazza az adót.",
-      "shipping_policy_html": "A <a href=\"{{ link }}\">szállítási költséget</a> a megrendeléskor számítjuk ki.",
-      "choose_options": "Válassz a lehetőségek közül",
-      "choose_product_options": "Termékváltozatok – {{ product_name }}",
-      "value_unavailable": "{{ option_value }} – Nincs készleten",
-      "variant_sold_out_or_unavailable": "A változat elfogyott vagy nincs készleten",
-      "inventory_in_stock": "Raktáron",
-      "inventory_in_stock_show_count": "{{ quantity }} raktáron",
-      "inventory_low_stock": "Alacsony készlet",
-      "inventory_low_stock_show_count": "Alacsony készlet: csak {{ quantity }} van raktáron",
-      "inventory_out_of_stock": "Nincs készleten",
-      "inventory_out_of_stock_continue_selling": "Raktáron",
-      "sku": "Termékváltozat"
+      "shipping_policy_html": "A <a href=\"{{ link }}\">szállítási költséget</a> a megrendeléskor számítjuk ki."
     },
     "modal": {
       "label": "Médiatár"
@@ -173,7 +147,7 @@
     "facets": {
       "apply": "Alkalmaz",
       "clear": "Törlés",
-      "clear_all": "Az összes eltávolítása",
+      "clear_all": "Az összes törlése",
       "from": "Ettől:",
       "filter_and_sort": "Szűrés és rendezés",
       "filter_by_label": "Szűrés:",
@@ -195,10 +169,7 @@
       "sort_button": "Rendezés",
       "sort_by_label": "Rendezési szempont:",
       "to": "Eddig:",
-      "clear_filter": "Szűrő eltávolítása",
-      "filter_selected_accessibility": "{{ type }} ({{ count }} szűrő kiválasztva)",
-      "show_more": "Több részlet",
-      "show_less": "Kevesebb részlet"
+      "clear_filter": "Szűrő kikapcsolása"
     }
   },
   "templates": {
@@ -215,21 +186,7 @@
       "results_with_count_and_term": {
         "one": "{{ count }} találat erre: {{ terms }}",
         "other": "{{ count }} találat erre: {{ terms }}"
-      },
-      "results_pages_with_count": {
-        "one": "{{ count }} oldal",
-        "other": "{{ count }} oldal"
-      },
-      "results_suggestions_with_count": {
-        "one": "{{ count }} javaslat",
-        "other": "{{ count }} javaslat"
-      },
-      "results_products_with_count": {
-        "one": "{{ count }} termék",
-        "other": "{{ count }} termék"
-      },
-      "suggestions": "Javaslatok",
-      "pages": "Oldal"
+      }
     },
     "cart": {
       "cart": "Kosár"
@@ -242,8 +199,7 @@
         "comment": "Hozzászólás",
         "send": "Küldés",
         "post_success": "Köszönjük, hogy írtál nekünk. A lehető legrövidebb időn belül válaszolni fogunk.",
-        "error_heading": "Kérjük, helyesbítsd a következőket:",
-        "title": "Kapcsolattartói űrlap"
+        "error_heading": "Kérjük, helyesbítsd a következőket:"
       }
     },
     "404": {
@@ -279,8 +235,7 @@
         "product": "Termék",
         "price": "Ár",
         "total": "Végösszeg",
-        "quantity": "Mennyiség",
-        "image": "Termék képe"
+        "quantity": "Mennyiség"
       },
       "update": "Frissítés",
       "login": {
@@ -306,22 +261,10 @@
     "collection_template": {
       "title": "Kollekció",
       "empty": "Nincs találat",
-      "use_fewer_filters_html": "Használj kevesebb szűrőt, vagy <a class=\"{{ class }}\" href=\"{{ link }}\">távolítsd el az összeset</a>."
+      "use_fewer_filters_html": "Használj kevesebb szűrőt, vagy <a class=\"{{ class }}\" href=\"{{ link }}\">töröld az összeset</a>."
     },
     "video": {
       "load_video": "Videó betöltése: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Dia betöltése",
-      "previous_slideshow": "Előző dia",
-      "next_slideshow": "Következő dia",
-      "pause_slideshow": "Diavetítés megállítása",
-      "play_slideshow": "Diavetítés indítása",
-      "carousel": "Forgótár",
-      "slide": "Dia"
-    },
-    "page": {
-      "title": "Oldal címe"
     }
   },
   "localization": {
@@ -408,7 +351,7 @@
     },
     "reset_password": {
       "title": "Új fiókjelszó létrehozása",
-      "subtext": "Írd be az új jelszót",
+      "subtext": "Írd be az ehhez az e-mail-címhez tartozó új jelszót: {{ email }}.",
       "password": "Jelszó",
       "password_confirm": "Jelszó megerősítése",
       "submit": "Új jelszó készítése"
@@ -435,8 +378,7 @@
       "tracking_url": "Hivatkozás a csomagkövetéshez",
       "tracking_company": "Futárszolgálat",
       "tracking_number": "Fuvarlevélszám",
-      "subtotal": "Részösszeg",
-      "total_duties": "Vámok"
+      "subtotal": "Részösszeg"
     }
   },
   "gift_cards": {

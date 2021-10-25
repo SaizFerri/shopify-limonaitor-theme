@@ -42,15 +42,13 @@
               </a>
             {%- else -%}
               {%- if part.title == paginate.current_page -%}
-                <a
-                  role="link"
-                  aria-disabled="true"
-                  class="pagination__item pagination__item--current light"
+                <span
+                  class="pagination__item pagination__item--current"
                   aria-current="page"
                   aria-label="{{ 'general.pagination.page' | t: number: part.title }}"
                 >
                   {{- part.title -}}
-                </a>
+                </span>
               {%- else -%}
                 <span class="pagination__item">{{ part.title }}</span>
               {%- endif -%}

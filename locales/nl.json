@@ -36,25 +36,17 @@
       "previous": "Vorige pagina"
     },
     "search": {
-      "search": "Zoeken",
-      "reset": "Zoekterm wissen"
+      "search": "Zoeken"
     },
     "cart": {
       "view": "Winkelwagen bekijken ({{ count }})",
-      "item_added": "Artikel toegevoegd aan winkelwagen",
-      "view_empty_cart": "Mijn winkelwagen bekijken"
+      "item_added": "Artikel toegevoegd aan winkelwagen"
     },
     "share": {
       "copy_to_clipboard": "Link kopiëren",
       "share_url": "Link",
       "success_message": "Link gekopieerd naar klembord",
       "close": "Delen sluiten"
-    },
-    "slider": {
-      "of": "van",
-      "next_slide": "Naar rechts schuiven",
-      "previous_slide": "Naar links schuiven",
-      "name": "Schuifregelaar"
     }
   },
   "newsletter": {
@@ -73,12 +65,13 @@
       "new_window": "Opent in een nieuw venster.",
       "external": "Opent externe website."
     },
+    "next_slide": "Naar rechts schuiven",
+    "previous_slide": "Naar links schuiven",
     "loading": "Bezig met laden...",
+    "of": "van",
     "skip_to_product_info": "Ga direct naar productinformatie",
     "total_reviews": "totaal aantal recensies",
-    "star_reviews_info": "{{ rating_value }} van de {{ rating_max }} sterren",
-    "collapsible_content_title": "Inklapbare content",
-    "complementary_products": "Aanvullende producten"
+    "star_reviews_info": "{{ rating_value }} van de {{ rating_max }} sterren"
   },
   "blogs": {
     "article": {
@@ -114,11 +107,7 @@
         "label": "Aantal",
         "input_label": "Aantal voor {{ product }}",
         "increase": "Aantal verhogen voor {{ product }}",
-        "decrease": "Aantal verlagen voor {{ product }}",
-        "minimum_of": "Minimum van {{ quantity }}",
-        "maximum_of": "Maximum van {{ quantity }}",
-        "multiples_of": "Stappen van {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in winkelwagen"
+        "decrease": "Aantal verlagen voor {{ product }}"
       },
       "price": {
         "from_price_html": "Vanaf {{ price }}",
@@ -143,29 +132,14 @@
         "refresh": "Vernieuwen"
       },
       "media": {
-        "open_media": "Media {{ index }} openen in modaal",
+        "open_featured_media": "Uitgelichte media openen in galerieweergave",
+        "open_media": "{{ index }} van media openen in galerieweergave",
         "play_model": "3D-viewer afspelen",
-        "play_video": "Video afspelen",
-        "gallery_viewer": "Gallery-weergave",
-        "load_image": "Afbeelding {{ index }} laden in gallery-weergave",
-        "load_model": "3D-model {{ index }} laden in gallery-weergave",
-        "load_video": "Video {{ index }} afspelen in gallery-weergave",
-        "image_available": "Afbeelding {{ index }} is nu beschikbaar in gallery-weergave"
+        "play_video": "Video afspelen"
       },
       "view_full_details": "Alle details bekijken",
       "include_taxes": "Inclusief btw.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten</a> worden berekend bij de checkout.",
-      "choose_options": "Opties kiezen",
-      "choose_product_options": "Opties kiezen voor {{ product_name }}",
-      "value_unavailable": "{{ option_value }} - Niet beschikbaar",
-      "variant_sold_out_or_unavailable": "Variant uitverkocht of niet beschikbaar",
-      "inventory_in_stock": "Op voorraad",
-      "inventory_in_stock_show_count": "{{ quantity }} op voorraad",
-      "inventory_low_stock": "Voorraad laag",
-      "inventory_low_stock_show_count": "Lage voorraad: nog maar {{ quantity }}",
-      "inventory_out_of_stock": "Niet op voorraad",
-      "sku": "SKU",
-      "inventory_out_of_stock_continue_selling": "Op voorraad"
+      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten</a> worden berekend bij de checkout."
     },
     "modal": {
       "label": "Mediagalerij"
@@ -173,7 +147,7 @@
     "facets": {
       "apply": "Toepassen",
       "clear": "Wissen",
-      "clear_all": "Alles verwijderen",
+      "clear_all": "Alles wissen",
       "from": "Van",
       "filter_and_sort": "Filteren en sorteren",
       "filter_by_label": "Filter:",
@@ -194,11 +168,8 @@
       "reset": "Opnieuw instellen",
       "sort_button": "Sorteren",
       "sort_by_label": "Sorteer op:",
-      "to": "Tot",
-      "clear_filter": "Filter verwijderen",
-      "filter_selected_accessibility": "{{ type }} ({{ count }} filters geselecteerd)",
-      "show_more": "Meer weergeven",
-      "show_less": "Minder weergeven"
+      "to": "Aan",
+      "clear_filter": "Filters wissen"
     }
   },
   "templates": {
@@ -215,21 +186,7 @@
       "results_with_count_and_term": {
         "one": "{{ count }} resultaat gevonden voor “{{ terms }}”",
         "other": "{{ count }} resultaten gevonden voor “{{ terms }}”"
-      },
-      "results_pages_with_count": {
-        "one": "{{ count }} pagina",
-        "other": "{{ count }} pagina's"
-      },
-      "results_suggestions_with_count": {
-        "one": "{{ count }} suggestie",
-        "other": "{{ count }} suggesties"
-      },
-      "results_products_with_count": {
-        "one": "{{ count }} product",
-        "other": "{{ count }} producten"
-      },
-      "suggestions": "Suggesties",
-      "pages": "Pagina's"
+      }
     },
     "cart": {
       "cart": "Winkelwagen"
@@ -242,8 +199,7 @@
         "comment": "Reactie",
         "send": "Sturen",
         "post_success": "Bedankt dat je contact met ons hebt opgenomen. Je hoort zo snel mogelijk van ons.",
-        "error_heading": "Pas het volgende aan:",
-        "title": "Contactformulier"
+        "error_heading": "Pas het volgende aan:"
       }
     },
     "404": {
@@ -279,8 +235,7 @@
         "product": "Product",
         "price": "Prijs",
         "total": "Totaal",
-        "quantity": "Aantal",
-        "image": "Productafbeelding"
+        "quantity": "Aantal"
       },
       "update": "Bijwerken",
       "login": {
@@ -306,22 +261,10 @@
     "collection_template": {
       "title": "Collectie",
       "empty": "Geen producten gevonden",
-      "use_fewer_filters_html": "Minder filters gebruiken of <a class=\"{{ class }}\" href=\"{{ link }}\">alles verwijderen</a>"
+      "use_fewer_filters_html": "Minder filters gebruiken of <a class=\"{{ class }}\" href=\"{{ link }}\">alles wissen</a>"
     },
     "video": {
       "load_video": "Video laden: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Dia laden",
-      "previous_slideshow": "Vorige dia",
-      "next_slideshow": "Volgende dia",
-      "pause_slideshow": "Diavoorstelling pauzeren",
-      "play_slideshow": "Diavoorstelling afspelen",
-      "carousel": "Carrousel",
-      "slide": "Dia"
-    },
-    "page": {
-      "title": "Paginatitel"
     }
   },
   "localization": {
@@ -376,7 +319,7 @@
       "create_account": "Account aanmaken",
       "email": "E‑mail",
       "forgot_password": "Wachtwoord vergeten?",
-      "guest_continue": "Doorgaan",
+      "guest_continue": "Verder",
       "guest_title": "Doorgaan als gast",
       "password": "Wachtwoord",
       "title": "Inloggegevens",
@@ -389,7 +332,7 @@
       "order_number_link": "Bestelnummer {{ number }}",
       "date": "Datum",
       "payment_status": "Betaalstatus",
-      "fulfillment_status": "Fulfilmentstatus",
+      "fulfillment_status": "Fulfillmentstatus",
       "total": "Totaal",
       "none": "Je hebt nog geen bestellingen geplaatst."
     },
@@ -408,7 +351,7 @@
     },
     "reset_password": {
       "title": "Account-wachtwoord opnieuw instellen",
-      "subtext": "Voer een nieuw wachtwoord in",
+      "subtext": "Voer een nieuw wachtwoord in voor {{ email }}",
       "password": "Wachtwoord",
       "password_confirm": "Wachtwoord bevestigen",
       "submit": "Wachtwoord opnieuw instellen"
@@ -421,7 +364,7 @@
       "billing_address": "Factuuradres",
       "payment_status": "Betaalstatus",
       "shipping_address": "Bezorgadres",
-      "fulfillment_status": "Fulfilmentstatus",
+      "fulfillment_status": "Fulfillmentstatus",
       "discount": "Korting",
       "shipping": "Verzending",
       "tax": "Belasting",
@@ -435,8 +378,7 @@
       "tracking_url": "Volglink",
       "tracking_company": "Vervoerder",
       "tracking_number": "Trackingnummer",
-      "subtotal": "Subtotaal",
-      "total_duties": "Douanerechten"
+      "subtotal": "Subtotaal"
     }
   },
   "gift_cards": {

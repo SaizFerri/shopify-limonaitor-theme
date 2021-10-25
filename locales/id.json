@@ -36,25 +36,17 @@
       "previous": "Halaman sebelumnya"
     },
     "search": {
-      "search": "Cari",
-      "reset": "Hapus kata kunci pencarian"
+      "search": "Cari"
     },
     "cart": {
       "view": "Lihat keranjang saya ({{ count }})",
-      "item_added": "Item ditambahkan ke keranjang Anda",
-      "view_empty_cart": "Lihat keranjang saya"
+      "item_added": "Item ditambahkan ke keranjang Anda"
     },
     "share": {
       "copy_to_clipboard": "Salin tautan",
       "share_url": "Tautan",
       "success_message": "Tautan disalin ke clipboard",
       "close": "Tutup bagikan"
-    },
-    "slider": {
-      "of": "dari",
-      "next_slide": "Geser kanan",
-      "previous_slide": "Geser kiri",
-      "name": "Slider"
     }
   },
   "newsletter": {
@@ -73,12 +65,13 @@
       "new_window": "Membuka di jendela baru.",
       "external": "Membuka situs web eksternal."
     },
+    "next_slide": "Geser kanan",
+    "previous_slide": "Geser kiri",
     "loading": "Memuat...",
+    "of": "dari",
     "skip_to_product_info": "Langsung ke informasi produk",
     "total_reviews": "ulasan keseluruhan",
-    "star_reviews_info": "{{ rating_value }} dari {{ rating_max }} bintang",
-    "collapsible_content_title": "Konten yang dapat ditutup",
-    "complementary_products": "Produk pelengkap"
+    "star_reviews_info": "{{ rating_value }} dari {{ rating_max }} bintang"
   },
   "blogs": {
     "article": {
@@ -114,11 +107,7 @@
         "label": "Jumlah",
         "input_label": "Jumlah untuk {{ product }}",
         "increase": "Tambah jumlah untuk {{ product }}",
-        "decrease": "Kurangi jumlah untuk {{ product }}",
-        "minimum_of": "Minimum {{ quantity }}",
-        "maximum_of": "Maksimum {{ quantity }}",
-        "multiples_of": "Kelipatan {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> di keranjang"
+        "decrease": "Kurangi jumlah untuk {{ product }}"
       },
       "price": {
         "from_price_html": "Dari {{ price }}",
@@ -143,29 +132,14 @@
         "refresh": "Muat ulang"
       },
       "media": {
-        "open_media": "Buka media {{ index }} di modal",
+        "open_featured_media": "Buka media unggulan di tampilan galeri",
+        "open_media": "Buka media {{ index }} di tampilan galeri",
         "play_model": "Putar Penampil 3D",
-        "play_video": "Putar video",
-        "gallery_viewer": "Penampil Galeri",
-        "load_image": "Muat gambar {{ index }} di tampilan galeri",
-        "load_model": "Muat Model 3D {{ index }} di tampilan galeri",
-        "load_video": "Putar video {{ index }} di tampilan galeri",
-        "image_available": "Gambar {{ index }} kini tersedia di tampilan galeri"
+        "play_video": "Putar video"
       },
       "view_full_details": "Lihat detail lengkap",
       "include_taxes": "Termasuk pajak.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Biaya pengiriman</a> dihitung saat checkout.",
-      "choose_options": "Pilih opsi",
-      "choose_product_options": "Pilih opsi untuk {{ product_name }}",
-      "value_unavailable": "{{ option_value }} - Tidak tersedia",
-      "variant_sold_out_or_unavailable": "Varian terjual habis atau tidak tersedia",
-      "inventory_in_stock": "Tersedia",
-      "inventory_in_stock_show_count": "{{ quantity }} tersedia",
-      "inventory_low_stock": "Stok sedikit",
-      "inventory_low_stock_show_count": "Stok sedikit: {{ quantity }} tersisa",
-      "inventory_out_of_stock": "Habis",
-      "inventory_out_of_stock_continue_selling": "Tersedia",
-      "sku": "SKU"
+      "shipping_policy_html": "<a href=\"{{ link }}\">Biaya pengiriman</a> dihitung saat checkout."
     },
     "modal": {
       "label": "Galeri media"
@@ -195,10 +169,7 @@
       "sort_button": "Urutkan",
       "sort_by_label": "Urutkan berdasarkan:",
       "to": "Sampai",
-      "clear_filter": "Hapus filter",
-      "filter_selected_accessibility": "{{ type }} ({{ count }} filter dipilih)",
-      "show_more": "Selengkapnya",
-      "show_less": "Sembunyikan lainnya"
+      "clear_filter": "Hapus filter"
     }
   },
   "templates": {
@@ -215,20 +186,6 @@
       "results_with_count_and_term": {
         "one": "{{ count }} hasil ditemukan untuk “{{ terms }}”",
         "other": "{{ count }} hasil ditemukan untuk “{{ terms }}”"
-      },
-      "results_pages_with_count": {
-        "one": "{{ count }} halaman",
-        "other": "{{ count }} halaman"
-      },
-      "results_products_with_count": {
-        "one": "{{ count }} produk",
-        "other": "{{ count }} produk"
-      },
-      "suggestions": "Saran",
-      "pages": "Halaman",
-      "results_suggestions_with_count": {
-        "one": "{{ count }} saran",
-        "other": "{{ count }} saran"
       }
     },
     "cart": {
@@ -242,8 +199,7 @@
         "comment": "Komentar",
         "send": "Kirim",
         "post_success": "Terima kasih sudah menghubungi kami. Kami akan segera menghubungi Anda.",
-        "error_heading": "Mohon sesuaikan:",
-        "title": "Formulir kontak"
+        "error_heading": "Mohon sesuaikan:"
       }
     },
     "404": {
@@ -279,8 +235,7 @@
         "product": "Produk",
         "price": "Harga",
         "total": "Total",
-        "quantity": "Jumlah",
-        "image": "Gambar produk"
+        "quantity": "Jumlah"
       },
       "update": "Perbarui",
       "login": {
@@ -310,18 +265,6 @@
     },
     "video": {
       "load_video": "Muat video: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Muat slide",
-      "previous_slideshow": "Slide sebelumnya",
-      "next_slideshow": "Slide berikutnya",
-      "pause_slideshow": "Jeda slideshow",
-      "play_slideshow": "Putar slideshow",
-      "carousel": "Carousel",
-      "slide": "Geser"
-    },
-    "page": {
-      "title": "Judul halaman"
     }
   },
   "localization": {
@@ -408,7 +351,7 @@
     },
     "reset_password": {
       "title": "Reset sandi akun",
-      "subtext": "Masukkan sandi baru",
+      "subtext": "Masukkan sandi baru untuk {{ email }}",
       "password": "Sandi",
       "password_confirm": "Konfirmasi sandi",
       "submit": "Reset sandi"
@@ -435,8 +378,7 @@
       "tracking_url": "Tautan pelacakan",
       "tracking_company": "Kurir",
       "tracking_number": "Nomor pelacakan",
-      "subtotal": "Subtotal",
-      "total_duties": "Bea cukai"
+      "subtotal": "Subtotal"
     }
   },
   "gift_cards": {

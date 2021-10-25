@@ -36,25 +36,17 @@
       "previous": "Trang trước"
     },
     "search": {
-      "search": "Tìm kiếm",
-      "reset": "Xóa cụm từ tìm kiếm"
+      "search": "Tìm kiếm"
     },
     "cart": {
       "view": "Xem giỏ hàng của tôi ({{ count }})",
-      "item_added": "Mặt hàng đã thêm vào giỏ hàng",
-      "view_empty_cart": "Xem giỏ hàng của tôi"
+      "item_added": "Mặt hàng đã thêm vào giỏ hàng"
     },
     "share": {
       "copy_to_clipboard": "Sao chép liên kết",
       "share_url": "Liên kết",
       "success_message": "Đã sao chép liên kết vào bảng nhớ tạm",
       "close": "Đóng cửa sổ chia sẻ"
-    },
-    "slider": {
-      "of": "trong số",
-      "next_slide": "Trượt sang phải",
-      "previous_slide": "Trượt sang trái",
-      "name": "Thanh trượt"
     }
   },
   "newsletter": {
@@ -73,12 +65,13 @@
       "new_window": "Mở trong cửa sổ mới.",
       "external": "Mở trang web bên ngoài."
     },
+    "next_slide": "Trượt sang phải",
+    "previous_slide": "Trượt sang trái",
     "loading": "Đang tải...",
+    "of": "trên",
     "skip_to_product_info": "Chuyển đến thông tin sản phẩm",
     "total_reviews": "tổng số lượt đánh giá",
-    "star_reviews_info": "{{ rating_value }}/{{ rating_max }} sao",
-    "collapsible_content_title": "Nội dung có thể thu gọn",
-    "complementary_products": "Sản phẩm bổ sung"
+    "star_reviews_info": "{{ rating_value }}/{{ rating_max }} sao"
   },
   "blogs": {
     "article": {
@@ -114,11 +107,7 @@
         "label": "Số lượng",
         "input_label": "Số lượng của {{ product }}",
         "increase": "Tăng số lượng của {{ product }}",
-        "decrease": "Giảm số lượng của {{ product }}",
-        "minimum_of": "Tối thiểu {{ quantity }}",
-        "maximum_of": "Tối đa {{ quantity }}",
-        "multiples_of": "Số lượng gia tăng {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> trong giỏ hàng"
+        "decrease": "Giảm số lượng của {{ product }}"
       },
       "price": {
         "from_price_html": "Từ {{ price }}",
@@ -143,29 +132,14 @@
         "refresh": "Làm mới"
       },
       "media": {
-        "open_media": "Mở phương tiện {{ index }} trong hộp tương tác",
+        "open_featured_media": "Mở phương tiện nổi bật trong dạng xem bộ sưu tập",
+        "open_media": "Mở {{ index }} phương tiện trong dạng xem bộ sưu tập",
         "play_model": "Mở Trình xem 3D",
-        "play_video": "Phát video",
-        "gallery_viewer": "Trình xem thư viện",
-        "load_image": "Tải hình ảnh {{ index }} trong chế độ xem thư viện",
-        "load_model": "Tải mô hình 3D {{ index }} trong chế độ xem thư viện",
-        "load_video": "Phát video {{ index }} trong chế độ xem thư viện",
-        "image_available": "Hình ảnh {{ index }} hiện đã có trong chế độ xem thư viện"
+        "play_video": "Phát video"
       },
       "view_full_details": "Xem toàn bộ chi tiết",
       "include_taxes": "Đã bao gồm thuế.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Phí vận chuyển</a> được tính khi thanh toán.",
-      "choose_options": "Chọn các tùy chọn",
-      "choose_product_options": "Chọn tùy chọn cho {{ product_name }}",
-      "value_unavailable": "{{ option_value }} - Không khả dụng",
-      "variant_sold_out_or_unavailable": "Mẫu mã đã bán hết hoặc không còn hàng",
-      "inventory_in_stock": "Còn hàng",
-      "inventory_in_stock_show_count": "Còn {{ quantity }} hàng lưu kho",
-      "inventory_low_stock": "Sắp hết hàng",
-      "inventory_low_stock_show_count": "Sắp hết hàng: Còn {{ quantity }}",
-      "inventory_out_of_stock": "Hết hàng",
-      "inventory_out_of_stock_continue_selling": "Còn hàng",
-      "sku": "SKU"
+      "shipping_policy_html": "<a href=\"{{ link }}\">Phí vận chuyển</a> được tính khi thanh toán."
     },
     "modal": {
       "label": "Thư viện phương tiện"
@@ -195,10 +169,7 @@
       "sort_button": "Sắp xếp",
       "sort_by_label": "Sắp xếp theo:",
       "to": "Đến",
-      "clear_filter": "Xóa bộ lọc",
-      "filter_selected_accessibility": "{{ type }} (Đã chọn {{ count }} bộ lọc)",
-      "show_more": "Hiển thị thêm",
-      "show_less": "Rút gọn"
+      "clear_filter": "Xóa bộ lọc"
     }
   },
   "templates": {
@@ -215,21 +186,7 @@
       "results_with_count_and_term": {
         "one": "Tìm thấy {{ count }} kết quả cho “{{ terms }}”",
         "other": "Tìm thấy {{ count }} kết quả cho “{{ terms }}”"
-      },
-      "results_pages_with_count": {
-        "one": "Trang {{ count }}",
-        "other": "{{ count }} trang"
-      },
-      "results_suggestions_with_count": {
-        "one": "{{ count }} gợi ý",
-        "other": "{{ count }} gợi ý"
-      },
-      "results_products_with_count": {
-        "one": "{{ count }} sản phẩm",
-        "other": "{{ count }} sản phẩm"
-      },
-      "suggestions": "Gợi ý",
-      "pages": "Trang"
+      }
     },
     "cart": {
       "cart": "Giỏ hàng"
@@ -242,8 +199,7 @@
         "comment": "Bình luận",
         "send": "Gửi",
         "post_success": "Cảm ơn đã liên hệ với chúng tôi. Chúng tôi sẽ liên hệ lại với bạn trong thời gian sớm nhất.",
-        "error_heading": "Vui lòng điều chỉnh các mục sau:",
-        "title": "Biểu mẫu liên hệ"
+        "error_heading": "Vui lòng điều chỉnh các mục sau:"
       }
     },
     "404": {
@@ -279,8 +235,7 @@
         "product": "Sản phẩm",
         "price": "Giá",
         "total": "Tổng",
-        "quantity": "Số lượng",
-        "image": "Hình ảnh sản phẩm"
+        "quantity": "Số lượng"
       },
       "update": "Cập nhật",
       "login": {
@@ -310,18 +265,6 @@
     },
     "video": {
       "load_video": "Tải video: {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Tải trang chiếu",
-      "previous_slideshow": "Trang chiếu trước",
-      "next_slideshow": "Trang chiếu sau",
-      "pause_slideshow": "Tạm dừng bản trình chiếu",
-      "play_slideshow": "Phát bản trình chiếu",
-      "carousel": "Quay vòng",
-      "slide": "Trang chiếu"
-    },
-    "page": {
-      "title": "Tiêu đề trang"
     }
   },
   "localization": {
@@ -408,7 +351,7 @@
     },
     "reset_password": {
       "title": "Đặt lại mật khẩu tài khoản",
-      "subtext": "Nhập mật khẩu mới",
+      "subtext": "Nhập mật khẩu mới cho {{ email }}",
       "password": "Mật khẩu",
       "password_confirm": "Xác nhận mật khẩu",
       "submit": "Đặt lại mật khẩu"
@@ -434,9 +377,8 @@
       "track_shipment": "Theo dõi lô hàng",
       "tracking_url": "Liên kết theo dõi",
       "tracking_company": "Hãng vận chuyển",
-      "tracking_number": "Mã theo dõi",
-      "subtotal": "Tổng phụ",
-      "total_duties": "Thuế hải quan"
+      "tracking_number": "Số theo dõi",
+      "subtotal": "Tổng phụ"
     }
   },
   "gift_cards": {

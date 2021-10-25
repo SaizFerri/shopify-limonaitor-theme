@@ -36,25 +36,17 @@
       "previous": "Ankstesnis puslapis"
     },
     "search": {
-      "search": "Ieškoti",
-      "reset": "Išvalyti paieškos terminą"
+      "search": "Ieškoti"
     },
     "cart": {
       "view": "Peržiūrėti mano krepšelį ({{ count }})",
-      "item_added": "Prekė įdėta į jūsų krepšelį",
-      "view_empty_cart": "Peržiūrėti krepšelį"
+      "item_added": "Prekė įdėta į jūsų krepšelį"
     },
     "share": {
       "copy_to_clipboard": "Kopijuoti nuorodą",
       "share_url": "Nuoroda",
       "success_message": "Nuoroda nukopijuota į iškarpinę",
       "close": "Uždaryti bendrinimą"
-    },
-    "slider": {
-      "of": "iš",
-      "next_slide": "Slinkti dešinėn",
-      "previous_slide": "Slinkti kairėn",
-      "name": "Slankiklis"
     }
   },
   "newsletter": {
@@ -69,16 +61,17 @@
     "vendor": "Tiekėjas:",
     "error": "Klaida",
     "refresh_page": "Pasirenkant variantą persikrauna visas puslapis.",
+    "next_slide": "Slinkite dešinėn",
+    "previous_slide": "Slinkite kairėn",
     "loading": "Įkeliama...",
     "link_messages": {
       "new_window": "Atsidaro naujame lange.",
       "external": "Atidaro išorinę svetainę."
     },
+    "of": "iš",
     "skip_to_product_info": "Pereiti prie informacijos apie gaminį",
     "total_reviews": "iš viso apžvalgų",
-    "star_reviews_info": "{{ rating_value }} iš {{ rating_max }} žvaigždučių",
-    "collapsible_content_title": "Suskleidžiamas turinys",
-    "complementary_products": "Papildomi produktai"
+    "star_reviews_info": "{{ rating_value }} iš {{ rating_max }} žvaigždučių"
   },
   "blogs": {
     "article": {
@@ -123,11 +116,7 @@
         "label": "Kiekis",
         "input_label": "{{ product }} kiekis",
         "increase": "Padidinti {{ product }} kiekį",
-        "decrease": "Sumažinti {{ product }} kiekį",
-        "minimum_of": "Mažiausiai {{ quantity }}",
-        "maximum_of": "Daugiausiai {{ quantity }}",
-        "multiples_of": "Kiekis didėja kas {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> vnt. krepšelyje"
+        "decrease": "Sumažinti {{ product }} kiekį"
       },
       "price": {
         "from_price_html": "Nuo {{ price }}",
@@ -145,29 +134,14 @@
         "refresh": "Atnaujinti"
       },
       "media": {
-        "open_media": "Atidaryti mediją {{ index }} modaliniame lange",
+        "open_featured_media": "Atidaryti siūlomą mediją galerijos rodinyje",
+        "open_media": "Atidaryti mediją {{ index }} galerijos rodinyje",
         "play_model": "Paleisti 3D peržiūros programą",
-        "play_video": "Paleisti vaizdo įrašą",
-        "gallery_viewer": "Galerijos žiūryklė",
-        "load_image": "Įkelti vaizdą {{ index }} į galerijos rodinį",
-        "load_model": "Įkelti trimatį modelį {{ index }} į galerijos rodinį",
-        "load_video": "Leisti vaizdo įrašą {{ index }} galerijos rodinyje",
-        "image_available": "Vaizdas {{ index }} dabar prieinamas galerijos rodinyje"
+        "play_video": "Paleisti vaizdo įrašą"
       },
       "view_full_details": "Žiūrėti visą informaciją",
       "include_taxes": "Mokesčiai įtraukti.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
-      "choose_options": "Rinktis variantus",
-      "choose_product_options": "Rinktis {{ product_name }} variantus",
-      "value_unavailable": "{{ option_value }} – neturime",
-      "variant_sold_out_or_unavailable": "Prekė išparduota arba jos neturime",
-      "inventory_in_stock": "Yra sandėlyje",
-      "inventory_in_stock_show_count": "{{ quantity }} vnt. sandėlyje",
-      "inventory_low_stock": "Atsargos senka",
-      "inventory_low_stock_show_count": "Atsargos senka: liko {{ quantity }} vnt.",
-      "inventory_out_of_stock": "Neturime",
-      "inventory_out_of_stock_continue_selling": "Yra sandėlyje",
-      "sku": "SKU kodas"
+      "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimo išlaidos</a> apskaičiuojamos atsiskaitant."
     },
     "modal": {
       "label": "Medijų galerija"
@@ -175,7 +149,7 @@
     "facets": {
       "apply": "Taikyti",
       "clear": "Išvalyti",
-      "clear_all": "Pašalinti viską",
+      "clear_all": "Išvalyti viską",
       "from": "Nuo",
       "filter_and_sort": "Filtruoti ir rūšiuoti",
       "filter_by_label": "Filtruoti:",
@@ -203,10 +177,7 @@
         "few": "{{ count }} gaminiai (-ių)",
         "many": "{{ count }} gaminiai (-ių)"
       },
-      "clear_filter": "Pašalinti filtrą",
-      "filter_selected_accessibility": "{{ type }} (pasirinkta filtrų: {{ count }})",
-      "show_more": "Rodyti daugiau",
-      "show_less": "Rodyti mažiau"
+      "clear_filter": "Išvalyti filtrą"
     }
   },
   "templates": {
@@ -227,27 +198,7 @@
         "other": "Rasti {{ count }} rezultatai (-ų) pagal užklausą „{{ terms }}“",
         "few": "Rasti {{ count }} rezultatai (-ų) pagal užklausą „{{ terms }}“",
         "many": "Rasti {{ count }} rezultatai (-ų) pagal užklausą „{{ terms }}“"
-      },
-      "results_pages_with_count": {
-        "one": "{{ count }} puslapis",
-        "other": "{{ count }} puslapiai (-ių)",
-        "few": "{{ count }} puslapiai (-ių)",
-        "many": "{{ count }} puslapiai (-ių)"
-      },
-      "results_suggestions_with_count": {
-        "one": "{{ count }} pasiūlymas",
-        "other": "{{ count }} pasiūlymai (-ų)",
-        "few": "{{ count }} pasiūlymai (-ų)",
-        "many": "{{ count }} pasiūlymai (-ų)"
-      },
-      "results_products_with_count": {
-        "one": "{{ count }} gaminys",
-        "other": "{{ count }} gaminiai (-ių)",
-        "few": "{{ count }} gaminiai (-ių)",
-        "many": "{{ count }} gaminiai (-ių)"
-      },
-      "suggestions": "Pasiūlymai",
-      "pages": "Puslapiai"
+      }
     },
     "cart": {
       "cart": "Krepšelis"
@@ -260,8 +211,7 @@
         "comment": "Komentuoti",
         "send": "Siųsti",
         "post_success": "Dėkojame, kad su mumis susisiekėte. Atsakysime kaip galėdami greičiau.",
-        "error_heading": "Pakoreguokite toliau pateiktą informaciją.",
-        "title": "Kontaktinė forma"
+        "error_heading": "Pakoreguokite toliau pateiktą informaciją."
       }
     },
     "404": {
@@ -300,8 +250,7 @@
         "product": "Gaminys",
         "price": "Kaina",
         "total": "Visa suma",
-        "quantity": "Kiekis",
-        "image": "Gaminio nuotrauka"
+        "quantity": "Kiekis"
       },
       "login": {
         "title": "Turite paskyrą?",
@@ -326,22 +275,10 @@
     "collection_template": {
       "title": "Kolekcija",
       "empty": "Nerasta jokių gaminių",
-      "use_fewer_filters_html": "Naudoti mažiau filtrų arba <a class=\"{{ class }}\" href=\"{{ link }}\">pašalinti viską</a>"
+      "use_fewer_filters_html": "Naudoti mažiau filtrų arba <a class=\"{{ class }}\" href=\"{{ link }}\">išvalyti viską</a>"
     },
     "video": {
       "load_video": "Įkelti vaizdo įrašą „{{ description }}“"
-    },
-    "slideshow": {
-      "load_slide": "Įkelti skaidrę",
-      "previous_slideshow": "Ankstesnė skaidrė",
-      "next_slideshow": "Kita skaidrė",
-      "pause_slideshow": "Pristabdyti skaidrių peržiūrą",
-      "play_slideshow": "Leisti skaidrių peržiūrą",
-      "carousel": "Karuselė",
-      "slide": "Skaidrė"
-    },
-    "page": {
-      "title": "Puslapio pavadinimas"
     }
   },
   "localization": {
@@ -425,8 +362,7 @@
       "tracking_url": "Sekimo nuoroda",
       "tracking_company": "Vežėjas",
       "tracking_number": "Sekimo numeris",
-      "subtotal": "Tarpinė suma",
-      "total_duties": "Muito mokesčiai"
+      "subtotal": "Tarpinė suma"
     },
     "orders": {
       "title": "Užsakymų istorija",
@@ -453,7 +389,7 @@
     },
     "reset_password": {
       "title": "Nustatyti paskyros slaptažodį iš naujo",
-      "subtext": "Įveskite naują slaptažodį",
+      "subtext": "Įveskite naują paskyros {{ email }} slaptažodį",
       "password": "Slaptažodis",
       "password_confirm": "Patvirtinti slaptažodį",
       "submit": "Nustatyti slaptažodį iš naujo"

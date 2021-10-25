@@ -36,25 +36,17 @@
       "previous": "Page précédente"
     },
     "search": {
-      "search": "Recherche",
-      "reset": "Effacer le terme de recherche"
+      "search": "Recherche"
     },
     "cart": {
       "view": "Afficher mon panier ({{ count }})",
-      "item_added": "Article ajouté au panier",
-      "view_empty_cart": "Afficher mon panier"
+      "item_added": "Article ajouté au panier"
     },
     "share": {
       "copy_to_clipboard": "Copier le lien",
       "share_url": "Lien",
       "success_message": "Lien copié dans le presse-papiers",
       "close": "Fermer le partage"
-    },
-    "slider": {
-      "of": "de",
-      "next_slide": "Faire glisser vers la droite",
-      "previous_slide": "Faire glisser vers la gauche",
-      "name": "Carrousel"
     }
   },
   "newsletter": {
@@ -73,12 +65,13 @@
       "new_window": "S'ouvre dans une nouvelle fenêtre.",
       "external": "Ouvre un site web externe."
     },
+    "next_slide": "Faire glisser vers la droite",
+    "previous_slide": "Faire glisser vers la gauche",
     "loading": "Chargement en cours...",
+    "of": "sur",
     "skip_to_product_info": "Passer aux informations produits",
     "total_reviews": "total des critiques",
-    "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles",
-    "collapsible_content_title": "Contenu réductible",
-    "complementary_products": "Produits complémentaires"
+    "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles"
   },
   "blogs": {
     "article": {
@@ -86,8 +79,7 @@
       "read_more_title": "Lire la suite : {{ title }}",
       "comments": {
         "one": "{{ count }} commentaire",
-        "other": "{{ count }} commentaires",
-        "many": "{{ count }} commentaires"
+        "other": "{{ count }} commentaires"
       },
       "moderated": "Veuillez noter que les commentaires doivent être approuvés avant d'être publiés.",
       "comment_form_title": "Laisser un commentaire",
@@ -109,17 +101,13 @@
     "product": {
       "add_to_cart": "Ajouter au panier",
       "description": "Description",
-      "on_sale": "En vente",
+      "on_sale": "Vente",
       "product_variants": "Variantes de produits",
       "quantity": {
         "label": "Quantité",
         "input_label": "Quantité pour {{ product }}",
         "increase": "Augmenter la quantité de {{ product }}",
-        "decrease": "Réduire la quantité de {{ product }}",
-        "minimum_of": "Minimum de {{ quantity }}",
-        "maximum_of": "Maximum de {{ quantity }}",
-        "multiples_of": "Incréments de {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> dans le panier"
+        "decrease": "Réduire la quantité de {{ product }}"
       },
       "price": {
         "from_price_html": "Du {{ price }}",
@@ -144,29 +132,14 @@
         "refresh": "Actualiser"
       },
       "media": {
-        "open_media": "Ouvrir le média {{ index }} dans une fenêtre modale",
+        "open_featured_media": "Ouvrir les supports multimédia en vedette dans la vue de la galerie",
+        "open_media": "Ouvrir {{ index }} des supports multimédia dans la vue de la galerie",
         "play_model": "Lire la visionneuse 3D",
-        "play_video": "Lire la vidéo",
-        "gallery_viewer": "Visionneuse de la galerie",
-        "load_image": "Charger l'image {{ index }} dans la galerie",
-        "load_model": "Charger le modèle 3D {{ index }} dans la galerie",
-        "load_video": "Lire la vidéo {{ index }} dans la galerie",
-        "image_available": "L'image {{ index }} est maintenant disponible dans la galerie"
+        "play_video": "Lire la vidéo"
       },
       "view_full_details": "Afficher tous les détails",
       "include_taxes": "Taxes incluses.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition</a> calculés à l'étape de paiement.",
-      "choose_options": "Choisir des options",
-      "choose_product_options": "Choisir des options pour {{ product_name }}",
-      "value_unavailable": "{{ option_value }} – indisponible",
-      "variant_sold_out_or_unavailable": "Variante épuisée ou indisponible",
-      "inventory_in_stock": "En stock",
-      "inventory_in_stock_show_count": "{{ quantity }} en stock",
-      "inventory_low_stock": "Stock bas",
-      "inventory_low_stock_show_count": "Stock bas : {{ quantity }} restant(s)",
-      "sku": "SKU",
-      "inventory_out_of_stock": "En rupture de stock",
-      "inventory_out_of_stock_continue_selling": "En stock"
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition</a> calculés à l'étape de paiement."
     },
     "modal": {
       "label": "Galerie de supports multimédias"
@@ -174,35 +147,29 @@
     "facets": {
       "apply": "Appliquer",
       "clear": "Effacer",
-      "clear_all": "Tout supprimer",
+      "clear_all": "Tout effacer",
       "from": "De",
       "filter_and_sort": "Filtrer et trier",
       "filter_by_label": "Filtre :",
       "filter_button": "Filtrer",
       "filters_selected": {
         "one": "{{ count }} sélectionné",
-        "other": "{{ count }} sélectionnés",
-        "many": "{{ count }} sélectionnés"
+        "other": "{{ count }} sélectionnés"
       },
       "max_price": "Le prix le plus élevé est de {{ price }}",
       "product_count": {
         "one": "{{ product_count }} produit sur {{ count }}",
-        "other": "{{ product_count }} produits sur {{ count }}",
-        "many": "{{ product_count }} produits sur {{ count }}"
+        "other": "{{ product_count }} produits sur {{ count }}"
       },
       "product_count_simple": {
         "one": "{{ count }} produit",
-        "other": "{{ count }} produits",
-        "many": "{{ count }} produits"
+        "other": "{{ count }} produits"
       },
       "reset": "Réinitialiser",
       "sort_button": "Trier",
       "sort_by_label": "Trier par :",
       "to": "À",
-      "clear_filter": "Supprimer le filtre",
-      "filter_selected_accessibility": "{{ type }} ({{ count }} filtres sélectionnés)",
-      "show_more": "Afficher plus",
-      "show_less": "Afficher moins"
+      "clear_filter": "Effacer le filtre"
     }
   },
   "templates": {
@@ -210,8 +177,7 @@
       "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
       "results_with_count": {
         "one": "{{ count }} résultat",
-        "other": "{{ count }} résultats",
-        "many": "{{ count }} résultats"
+        "other": "{{ count }} résultats"
       },
       "title": "Résultats de la recherche",
       "page": "Page",
@@ -219,26 +185,8 @@
       "search_for": "Rechercher « {{ terms }} »",
       "results_with_count_and_term": {
         "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
-        "other": "{{ count }} résultats trouvés pour « {{ terms }} »",
-        "many": "{{ count }} résultats trouvés pour « {{ terms }} »"
-      },
-      "results_pages_with_count": {
-        "one": "Page {{ count }}",
-        "other": "Pages {{ count }}",
-        "many": "Pages {{ count }}"
-      },
-      "results_suggestions_with_count": {
-        "one": "{{ count }} suggestion",
-        "other": "{{ count }} suggestions",
-        "many": "{{ count }} suggestions"
-      },
-      "results_products_with_count": {
-        "one": "Produit {{ count }}",
-        "other": "Produits {{ count }}",
-        "many": "Produits {{ count }}"
-      },
-      "suggestions": "Suggestions",
-      "pages": "Pages"
+        "other": "{{ count }} résultats trouvés pour « {{ terms }} »"
+      }
     },
     "cart": {
       "cart": "Panier"
@@ -251,8 +199,7 @@
         "comment": "Commentaire",
         "send": "Envoyer",
         "post_success": "Merci de nous avoir contactés. Nous vous répondrons dès que possible.",
-        "error_heading": "Veuillez ajuster les éléments suivants :",
-        "title": "Formulaire de contact"
+        "error_heading": "Veuillez ajuster les éléments suivants :"
       }
     },
     "404": {
@@ -266,8 +213,7 @@
       "menu": "Menu",
       "cart_count": {
         "one": "{{ count }} article",
-        "other": "{{ count }} articles",
-        "many": "{{ count }} articles"
+        "other": "{{ count }} articles"
       }
     },
     "cart": {
@@ -289,8 +235,7 @@
         "product": "Produit",
         "price": "Prix",
         "total": "Total",
-        "quantity": "Quantité",
-        "image": "Image de produit"
+        "quantity": "Quantité"
       },
       "update": "Mettre à jour",
       "login": {
@@ -316,22 +261,10 @@
     "collection_template": {
       "title": "Collection",
       "empty": "Aucun produit trouvé",
-      "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout supprimer</a>"
+      "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout effacer</a>"
     },
     "video": {
       "load_video": "Charger la vidéo : {{ description }}"
-    },
-    "slideshow": {
-      "load_slide": "Charger la diapositive",
-      "previous_slideshow": "Diapositive précédente",
-      "next_slideshow": "Diapositive suivante",
-      "pause_slideshow": "Interrompre le diaporama",
-      "play_slideshow": "Lire le diaporama",
-      "carousel": "Carrousel",
-      "slide": "Diapositive"
-    },
-    "page": {
-      "title": "Titre de la page"
     }
   },
   "localization": {
@@ -418,7 +351,7 @@
     },
     "reset_password": {
       "title": "Réinitialiser le mot de passe du compte",
-      "subtext": "Saisissez un nouveau mot de passe",
+      "subtext": "Saisir un nouveau mot de passe pour {{ email }}",
       "password": "Mot de passe",
       "password_confirm": "Confirmer le mot de passe",
       "submit": "Réinitialiser le mot de passe"
@@ -445,8 +378,7 @@
       "tracking_url": "Lien de suivi",
       "tracking_company": "Transporteur",
       "tracking_number": "Numéro de suivi",
-      "subtotal": "Sous-total",
-      "total_duties": "Frais de douane"
+      "subtotal": "Sous-total"
     }
   },
   "gift_cards": {
