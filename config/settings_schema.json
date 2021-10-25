@@ -1,9 +1,9 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Test theme",
-    "theme_version": "2.3.0",
-    "theme_author": "Shopify",
+    "theme_name": "Limonaitor",
+    "theme_version": "0.0.1",
+    "theme_author": "Adrian Saiz Ferri",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn",
     "theme_support_url": "https://support.shopify.com/"
   },
