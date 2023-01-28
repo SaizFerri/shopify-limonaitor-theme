@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -43,11 +36,6 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -67,7 +55,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "subtitle",
         "price",
@@ -100,12 +87,6 @@
         "include_margins": true
       }
     },
-    "judgeme_section_review_widget_854a": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -122,7 +103,6 @@
   "order": [
     "main",
     "16744995530e722c5c",
-    "judgeme_section_review_widget_854a",
     "product-recommendations"
   ]
 }
