@@ -47,6 +47,11 @@
       "copy_to_clipboard": "Copy link",
       "share_url": "Link",
       "success_message": "Link copied to clipboard"
+    },
+    "slider": {
+      "of": "TODO",
+      "previous_slide": "TODO",
+      "next_slide": "TODO"
     }
   },
   "newsletter": {
@@ -71,7 +76,8 @@
     "previous_slide": "Slide left",
     "loading": "Loading...",
     "total_reviews": "total reviews",
-    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars"
+    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
+    "collapsible_content_title": "TODO"
   },
   "blogs": {
     "article": {
@@ -107,7 +113,11 @@
         "open_featured_media": "Open featured media in gallery view",
         "open_media": "Open media {{ index }} in gallery view",
         "play_model": "Play 3D Viewer",
-        "play_video": "Play video"
+        "play_video": "Play video",
+        "gallery_viewer": "TODO",
+        "load_image": "TODO",
+        "load_model": "TODO",
+        "load_video": "TODO"
       },
       "quantity": {
         "label": "Quantity",
@@ -139,8 +149,11 @@
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "include_taxes": "Tax included.",
-      "shipping_policy_html":
-      "<a href=\"{{ link }}\">Shipping</a> calculated at checkout."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "choose_options": "TODO",
+      "choose_product_options": "TODO",
+      "variant_sold_out_or_unavailable": "TODO",
+      "value_unavailable": "TODO"
     },
     "modal": {
       "label": "Media gallery"
@@ -236,7 +249,8 @@
         "product": "Product",
         "price": "Price",
         "total": "Total",
-        "quantity": "Quantity"
+        "quantity": "Quantity",
+        "image": "TODO"
       },
       "update": "Update",
       "login": {
@@ -266,6 +280,14 @@
     },
     "video": {
       "load_video": "Load video: {{ description }}"
+    },
+    "slideshow": {
+      "carousel": "TODO",
+      "previous_slideshow": "TODO",
+      "load_slide": "TODO",
+      "next_slideshow": "TODO",
+      "pause_slideshow": "TODO",
+      "slide": "TODO"
     }
   },
   "localization": {
@@ -349,7 +371,8 @@
       "tracking_url": "Tracking link",
       "tracking_company": "Carrier",
       "tracking_number": "Tracking number",
-      "subtotal": "Subtotal"
+      "subtotal": "Subtotal",
+      "total_duties": "TODO"
     },
     "orders": {
       "title": "Order history",

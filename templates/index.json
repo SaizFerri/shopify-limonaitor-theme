@@ -14,7 +14,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Discover",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -27,7 +27,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DALL_E_2023-01-28_14.06.59_-_create_an_image_without_any_word_of_a_bored_ape_holding_a_vinyl_on_mars_with_a_space_ship_behind_him.webp",
+        "image": "shopify://shop_images/DALL_E_2023-01-28_14.06.59_-_create_an_image_without_any_word_of_a_bored_ape_holding_a_vinyl_on_mars_with_a_space_ship_behind_him.webp",
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",

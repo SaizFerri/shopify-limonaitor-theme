@@ -550,7 +550,7 @@
     {%- if product.selected_or_first_available_variant.featured_media -%}
       {%- assign media_size = product.selected_or_first_available_variant.featured_media.preview_image.width | append: 'x' -%}
       "image": [
-        {{ product.featured_media | img_url: media_size | prepend: "https:" | json }}
+        {{ product.featured_media | image_url: width: media_size | prepend: "https:" | json }}
       ],
     {%- endif -%}
     "description": {{ product.description | strip_html | json }},
