@@ -4,12 +4,7 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 
-<link
-  rel="preload"
-  href="{{ 'component-rte.css' | asset_url }}"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
->
+{{ 'component-rte.css' | asset_url | preload_tag: as: 'style' }}
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
