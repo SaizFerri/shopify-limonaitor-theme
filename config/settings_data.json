@@ -49,17 +49,17 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
+          "c70fd19f-7120-4563-86d2-f102d366ffef": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "",
+              "subtext": ""
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "c70fd19f-7120-4563-86d2-f102d366ffef"
         ],
         "settings": {
           "color_scheme": "inverse",
