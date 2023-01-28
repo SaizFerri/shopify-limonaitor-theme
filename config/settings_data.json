@@ -32,7 +32,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 100,
+          "logo": "shopify:\/\/shop_images\/DALL_E_2023-01-28_14.33.17_-_create_logo_for_a_vinyl_store_named_hiphonix.webp",
+          "logo_width": 60,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
